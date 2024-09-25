@@ -10,14 +10,15 @@ using namespace std;
 
 int main()
 {
-    int user_num = 5;
+    int user_num;
+    cout << "Enter a postive number: " << endl;
+    cin >> user_num;
     for (int i = 0; i < user_num; i++) {
-        for (int j = 0; j <= i; j++) {
+        for (int j = 0; j <= i; j++)
             cout << "*";
-        }
         cout << endl;
-
     }
+
    
 }
 
